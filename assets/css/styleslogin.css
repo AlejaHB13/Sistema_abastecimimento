@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta';
+}
+body {
+    background-image: url('imagen2.jpg'); /* Cambia esto a la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-form{
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    box-shadow: 0 0 30px #000;
+    padding: 50px; 
+}
+.contenedor-form .header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.contenedor-form .fila label{
+    display: inline-block;
+    font-size: 14px;
+    color: #ccc;
+    text-transform: uppercase;
+    margin: 7px 0;
+    padding: 0 5px;
+    transition: .5s;
+    border-radius: 30px;
+}
+.contenedor-form .fila input{
+    display: block;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(255,255,255,.3);
+    border:none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.contenedor-form .btn{
+    width: 100%;
+    background-color:#62b865;
+    border: none;
+    padding: 7px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    margin: 30px 0px;
+}
+hr{
+    margin-bottom:15px;
+}
+
+/* Estilos para el título */
+.titulo-login {
+    text-align: center; /* Centra el título */
+    font-size: 2rem;    /* Tamaño de fuente */
+    font-weight: bold;  /* Negrita */
+    color: #62b865;     /* Color verde bonito */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+}
